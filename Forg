@@ -1,0 +1,94 @@
+import java.util.Random;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        // The following is to help make your lists, please DO NOT DELETE THIS.
+        Random random = new Random();
+
+        // This is your initial decleration of Frogs, please do not delete.
+        // Make an array of frogs of random length.
+        Frog[] frogs = new Frog[random.nextInt(50) + 1];
+
+        // This is starting to populate your list of Frogs.
+        // UPDATE this.
+        for (int i = 0; i < frogs.length; i++)
+        {
+            // There is something missing below that will make the application not crash. PLEASE ADD IT.
+
+
+
+            // DO NOT CHANGE THIS. This is setting your first property of weight on your Frog object.
+            // Assign a random weight to each frog between 1 - 25.
+            frogs[i].weight = random.nextInt(25) + 1;
+
+            // Add a new property to the Frog class named height. Add height to each frog.
+            // Height of the frog should be double if weight is even.
+            // Height of the frog should be triple if wieght is odd.
+        }
+
+        // Call PrintAllFrogInfo 
+
+        // Call FindHeaviestFrog
+
+        // Call FindLightestFrog
+
+        // Call AverageFrogWeight
+
+        // Call TallestFrog
+    }
+
+    // Method to print ALL frogs information. This includes height and weight.
+    public static void PrintAllFrogInfo(Frog[] frogs)
+    {
+
+    }
+
+    // Find the frog that weighs the most and print that out.
+    // This method is missing the required paramters please add them!
+    public static void FindHeaviestFrog()
+    {
+
+
+        // When printing out the heaviest frog, please make sure to add text that it is the heaviest.
+    }
+
+    // Find the frog that weighs the least and print that out.
+    public static void FindLightestFrog(Frog[] frogs)
+    {
+
+
+        // When printing out the lightest frog, please make sure to add text that it is the lightest.
+    }
+
+    // Find average weight of all the frogs.
+    // This method is missing parameters please add them!
+    public static void AverageFrogWeight()
+    {
+        int sum = 0;
+    }
+
+    // Find the tallest Frog, and also determine if two frogs have the same height.
+    public static void TallestFrog(Frog[] frogs)
+    {
+        
+
+        // When printing out the tallest frog, please make sure to add text that it is the tallest.
+    }
+
+    /************************ EXTRA CREDIT  ***************************/
+
+    // Make two properties on the Frog class.
+    // Name and Friend.
+    // Make a list of 4 frogs, give each one a name.
+    // Make each frog have a friend. (Assign a frog object to this)
+    // Print out each pair of frog friends.
+
+
+    // Add another property on the Frog class.
+    // Size.
+    // If the frogs weight is 5 OR LESS assign small
+    // If the frogs weight is greater than 5.1 and less than or equal to 10 it is medium.
+    // If the frogs weight is greater than 10.1  and less than or equal to 20 it is large.
+    // The rest would be Extra Large.
+    // Print all frogs that are considered medium.
+}
